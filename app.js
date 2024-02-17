@@ -14,7 +14,7 @@ var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #inc
 var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
 
 
-//New task list item
+//Make list elements
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");

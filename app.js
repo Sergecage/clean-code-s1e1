@@ -19,6 +19,7 @@ const createNewTaskElement = function(taskString){
 
     //create list element
     let listItem = document.createElement("li");
+    listItem.className = 'item';
 
     //create element input (checkbox)
     let checkBox = document.createElement("input");

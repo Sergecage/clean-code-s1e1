@@ -40,7 +40,7 @@ ul {
     margin:0;
     padding: 0px;
 }
-li, .headline {
+.item, .headline {
     list-style:none;
 }
 input,button{
@@ -94,7 +94,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -102,20 +102,20 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-li > * {
+.item > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.item > input[type="checkbox"] {
     margin: 0 10px;
 }
-li > label {
+.item > label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+.item >    input[type="text"] {
     width: 226px
 }
 button.delete img {

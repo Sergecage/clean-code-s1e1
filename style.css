@@ -17,6 +17,7 @@ body {
     font-family: fantasy, cursive;
 }
 
+/* Add responsive resolution for 768px */
 @media (max-width:768px) {
 .header { 
     text-align: center;

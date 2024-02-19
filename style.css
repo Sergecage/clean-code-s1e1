@@ -2,7 +2,7 @@
 body {
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .header {
     width: 500px;
@@ -14,7 +14,7 @@ body {
     width: 100%;
 }
 .header .more-inf {
-    font-family: fantasy, cursive;
+    font-family: 'fantasy', cursive;
 }
 
 /* Add responsive resolution for 768px */
@@ -52,7 +52,7 @@ button {
     color: #888;
     font-size: 15px;
     width: 60px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     cursor: pointer;
 }
 button:hover {

@@ -59,8 +59,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-.headline,
-label[for='new-task'] {
+.headline,label[for='new-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;

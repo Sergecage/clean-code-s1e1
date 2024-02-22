@@ -124,7 +124,7 @@ label
     font-size: 18px;
     width: 226px;
 }
-.item >    input[type="text"] {
+.item >  input[type="text"] {
     width: 226px
 }
 button.delete img {
